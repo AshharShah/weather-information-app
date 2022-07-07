@@ -40,7 +40,7 @@ app.post("/", function (req, res) {
     lat +
     "&lon=" +
     long +
-    "&appid=510c94caafb2628f7e4cf651308b9de3";
+    "&appid=YOUR APP ID";
   https.get(url, function (response) {
     console.log(response.statusCode);
     response.on("data", function (data) {
